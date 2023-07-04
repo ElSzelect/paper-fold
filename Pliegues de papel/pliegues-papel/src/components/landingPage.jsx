@@ -17,7 +17,10 @@ export default function LandingPage(props) {
             <h3 className="font-thin code">by Ivan Szelect</h3>
           </div>
           <div className="pt-5 mx-auto text-center text-white lg:max-w-xl md:max-w-lg sm:max-w-sm">
-            <h4 className="text-lg bg-gray-900/50 border-black-500 border-2 p-4">¿Sabías que si doblas 7 veces una hoja A4 tendrías el espesor de 1.28 cm de un cuaderno?<br/> No es posible doblar más que eso un papel, pero... <br/>¿y si fuera posible? <br/>Esta función devuelve las medidas y equivalencias de la cantidad de pliegues que reciba su hoja A4 de 0.1 milímetros.</h4>
+            <h4 className="text-lg bg-gray-900/50 border-black-500 border-2 p-4">Did you know that if you fold an A4 sheet 7 times, you would have the thickness of a notebook of 1.28 cm? <br></br>
+It is not possible to fold more than that a paper, but...<br></br>
+and if it were possible?<br/>
+This function returns the measurements and equivalences of the number of folds that your A4 sheet of 0.1 millimeters receives.</h4>
           </div>
           <div className='py-20 '>
             <Link to='/home' className='bg-black  transition duration-300 text-slate-200 text-3xl rounded-full hover:bg-black hover:bg-opacity-85 bg-opacity-50 px-4 py-2 hover:text-white'>Let's Start</Link>
